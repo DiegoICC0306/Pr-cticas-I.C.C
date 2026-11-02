@@ -147,7 +147,7 @@ public class CabanaDelMisterio {
 
          while (!salir && operaciones < 5 && errores < 3) {
 
-            System.out.println("\n //// Sistema de Prestamos de la Cabaña del Mistrio ////");
+            System.out.println("\n //// Sistema de Prestamos de la Cabaña del Misterio ////");
             System.out.println("\n > Las operaciones disponibles son:");
             System.out.println("\n 1) Cotizar con interés simple.");
             System.out.println("\n 2) Cotizar con interés compuesto.");
@@ -265,33 +265,34 @@ public class CabanaDelMisterio {
 
                                 } 
                                 else {
-
+                                    
                                     System.out.println("El capital debe ser mayor que cero.");
+                                    
                                 }
 
                             } 
                             else {
-
+                                
                                 System.out.println("Debes ingresar un numero.");
+
                                 entrada.next();
                             }
                         }
 
                         operaciones++;
                     }
-                    else {
-                        errores++;
-                        System.out.println("Esa no es una opción válida. Por favor, ingresa un número de los indicados en el menú.");
-                    }
-                    }
-                    else {
-                        errores++;
-                        System.out.println("Tienes que ingresar ser un número entero.");
-                        entrada.nextLine();
-                    }
+                }
+                else {
+                    errores++;
+                    System.out.println("Esa no es una opción válida. Por favor, ingresa un número de los indicados en el menú.");
+                }
+            }
+            else {
+                errores++;
+                System.out.println("Tienes que ingresar ser un número entero.");
+                entrada.next();
+            }
         }
-
-        } 
 
         // Buscar porque se finalizó el programa.
 
