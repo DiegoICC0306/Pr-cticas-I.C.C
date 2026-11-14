@@ -4,18 +4,9 @@
 
 ---
 
-## Datos del alumno
-
-> **Nota de privacidad:** Si publicas tu proyecto en un repositorio público de GitHub, **no es necesario que incluyas esta sección**  en este archivo para proteger tu privacidad. Es suficiente con que tus datos completos estén registrados en el reporte PDF adjuntado directamente en Google Classroom.
-
-- **Nombre completo:** [Escribe aquí tu nombre completo]
-- **Número de cuenta:** [Escribe aquí tu número de cuenta]
-- **Correo institucional:** [tu_correo@ciencias.unam.mx]
-
----
 
 ## Descripción del proyecto
-[Escribe aquí con tus propias palabras una breve descripción del problema y de cómo organizaste la solución mediante las clases solicitadas].
+[El proyecto se trataba de desarrollar una clase para gestionar paquetes, y para poder hacer cálculos sobre sus precios y sus pesos. Con una clase normal me encargue de realizar la parte de los cálculos, mientras que con una clase estática realicé la verficación, el clasificar si requerian seguro, y cotizar los evnios.].
 
 ---
 
@@ -25,13 +16,14 @@ Escribe en las siguientes secciones los comandos que utilizaste desde la termina
 
 ### 1. Compilación
 ```bash
-# Escribe aquí el comando para compilar todas las clases hacia la carpeta bin/
+# ~/Documentos/FCiencias/Semestre_2027-1/ICC/Practicas/Practica07$ javac -d bin src/*.java
 
 ```
 
 ### 2. Ejecución
 ```bash
-# Escribe aquí el comando para ejecutar el programa de prueba
+# ~/Documentos/FCiencias/Semestre_2027-1/ICC/Practicas/Practica07$ java -cp bin PruebaPaqueteria
+
 
 ```
 
