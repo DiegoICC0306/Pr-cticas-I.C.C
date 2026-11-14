@@ -30,17 +30,17 @@ Ejecuta los siguientes comandos desde la terminal ubicado en la raíz de esta ca
 
 ### 1. Compilación
 ```bash
-<Indicar comando> ~javac -d bin src/*.java
+<~javac -d bin src/*.java> 
 ```
 
 ### 2. Ejecución de la verificación
 ```bash
-<Indicar comando> ~java -cp bin PruebaPunto
+<~java -cp bin PruebaPunto> 
 ```
 
 ### 3. Generación de documentación Javadoc
 ```bash
-<Indicar comando> javadoc -encoding UTF-8 -charset UTF-8 -author -version -private -d docs src/Punto.java
+<javadoc -encoding UTF-8 -charset UTF-8 -author -version -private -d docs src/Punto.java> 
 ```
 
 ---
